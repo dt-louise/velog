@@ -18,6 +18,6 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors())
 app.use(router)
 
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log('server on')
 })
