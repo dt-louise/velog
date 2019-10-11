@@ -5,9 +5,11 @@ const cors = require('cors')
 const app = express()
 const router = express.Router()
 
+app.set('view engine', 'pug')
+app.set('views', './views')
+
 router.route('/').get((req, res) => {
-  res.writeHead(200, {'Content-type': 'text/html;charset=utf8'})
-  res.end('<h1>유승민 ㅄ</h1>')
+  res.render('index')
 })
 
 app.use('/', express.static(__dirname + '/public'))
