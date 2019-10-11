@@ -1,0 +1,10 @@
+{
+  "name": "loli_velog",
+  "version": "1.0.0",
+  "description": "nope",
+  "main": "index.js",
+  "repository": "https://github.com/dt-louise/velog.git",
+  "author": "Kim Kyu San <developerstarlight@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
